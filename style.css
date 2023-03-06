@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    background-color: rgba(242, 206, 218, 0.3);
+    height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 207px;
+}
+
+.wrapper {
+    background-color: #fb9af78f;
+}
+
+.nav__list {
+    display: flex;
+
+}
+
+.nav__item {
+    margin-right: 28px;
+
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.flower {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 249px;
+    top: 285px;
+    animation: flower 10s infinite;
+    z-index: 3;
+}
+
+.flower:last-child {
+    left: 249px;
+    top: 585px;
+}
+
+
+
+@keyframes flower {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.flowers__small {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    top: 585px;
+    animation: flowers 10s infinite;
+}
+
+.flowers__small2 {
+    animation: flowers2 10s infinite;
+}
+
+.flowers__small3 {
+    animation: flowers3 10s infinite;
+}
+
+.flowers__small4 {
+    animation: flowers4 10s infinite;
+}
+
+.flowers__small5 {
+    animation: flowers5 10s infinite;
+}
+
+.flowers__small6 {
+    animation: flowers6 10s infinite;
+}
+
+.flowers__small7 {
+    animation: flowers7 10s infinite;
+}
+
+.flowers__small8 {
+    animation: flowers8 10s infinite;
+}
+
+@keyframes flowers {
+    0% {
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 600px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes flowers2 {
+    0% {
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 150px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes flowers3 {
+    0% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 980px;
+        left: 350px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes flowers4 {
+    0% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 170px;
+        left: 350px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes flowers5 {
+    0% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 800px;
+        left: 630px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes flowers6 {
+    0% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 250px;
+        left: 630px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes flowers7 {
+    0% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 900px;
+        left: 150px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes flowers8 {
+    0% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 250px;
+        left: 150px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 585px;
+        left: 350px;
+        transform: rotate(720deg);
+    }
+}
+
+.congratulation {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    font-size: 30px;
+    top: 400px;
+    left: 1000px;
+    font-family: 'Roboto';
+}
+
+.flower__corner {
+    position: absolute;
+    top: 0px;
+    left: 1700px;
+    width: 500px;
+    height: 500px;
+    animation: flower__corner 20s infinite;
+}
+
+.flower__corner:last-child {
+    top: 600px;
+    left: 1700px;
+}
+
+@keyframes flower__corner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
